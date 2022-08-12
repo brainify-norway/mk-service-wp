@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic-fb-white</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop-tjenester" transform="translate(-929.000000, -26.000000)">
+            <g id="ic-fb-white" transform="translate(929.956800, 27.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="0.57" cx="18" cy="18" r="18"></circle>
+                <path d="M22.1464286,14.9303571 L21.825,18 L19.3821429,18 L19.3821429,26.8714286 L15.6214286,26.8714286 L15.6214286,18 L13.8535714,18 L13.8535714,14.9303571 L15.6214286,14.9303571 L15.6214286,13.0821429 C15.6214286,10.5910714 16.7303571,9.19285714 19.6714286,9.19285714 L22.1303571,9.19285714 L22.1303571,12.2464286 L20.5232143,12.2464286 C19.3660714,12.2464286 19.3017857,12.6803571 19.3017857,13.4839286 L19.3017857,15.0910714 L22.1464286,14.9303571 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

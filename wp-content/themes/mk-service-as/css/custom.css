@@ -1,0 +1,9 @@
+.wp-block-latest-posts__featured-image {
+  height: 150px;
+  overflow: hidden;
+}
+.blog-posts .wp-block-latest-posts__post-title {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 700;
+}
