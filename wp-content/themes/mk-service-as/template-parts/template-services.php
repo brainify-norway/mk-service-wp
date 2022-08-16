@@ -10,11 +10,12 @@
 
 <div class="section-3 wf-section">
   <div class="content w-container">
-    <div class="Services-posts w-dyn-list">
 
-      <?php while (have_posts()) : the_post();
-        the_content();
-      endwhile; ?>
+    <?php while (have_posts()) : the_post();
+      the_content();
+    endwhile; ?>
+
+    <div class="services-posts w-dyn-list">
 
       <?php
       $services = new WP_Query(array(
@@ -24,18 +25,17 @@
 
       while ($services->have_posts()) {
         $services->the_post();
-        the_content();
-
       ?>
-        <p><?php the_title();
-            ?></p>
-        <img src="<?php the_post_thumbnail(); ?>">
+        <div class="service"><a href="<?php echo the_permalink() ?>">
+            <div class="overlay"></div>
+            <img class="service-image" src="<?php the_post_thumbnail_url(); ?>">
+            <p class="service-title"><?php the_title(); ?></p>
 
-        <button> Les mer</button>
+          </a>
+        </div>
       <?php
       }
       ?>
-
 
 
     </div>

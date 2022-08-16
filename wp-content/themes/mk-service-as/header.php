@@ -52,10 +52,14 @@
           <a href="<?php echo site_url(); ?>" class="brand w-nav-brand">
             <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.webp" loading="lazy" alt="" class="image">
           </a>
-          <div class="facebook-navlink">
+
+
+          <a class="facebook-navlink nav-link" href="https://www.facebook.com/mkserviceas">
             <img src="<?php echo get_stylesheet_directory_uri() ?>/images/ic-fb-white.svg" loading="lazy" alt="" class="fb-icon">
-            <div class="fb_link nav-link">Følg oss på Facebook</div>
-          </div>
+            <p class="fb-text">Følg oss på Facebook</p>
+          </a>
+
+
           <div class="menu-button w-nav-button">
             <div class="icon w-icon-nav-menu"></div>
           </div>

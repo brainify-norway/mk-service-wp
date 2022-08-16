@@ -74,7 +74,7 @@ p,
   z-index: 5;
   overflow: visible;
   height: 110px;
-  margin-bottom: -110px;
+  /* margin-bottom: -110px; */
   background-color: transparent;
   -o-object-fit: fill;
   object-fit: fill;
@@ -131,6 +131,7 @@ p,
   text-align: right;
   -o-object-fit: fill;
   object-fit: fill;
+  text-decoration: none;
 }
 
 .nav-link {
@@ -159,6 +160,7 @@ p,
   mix-blend-mode: normal;
 }
 
+.facebook-navlink:focus,
 .nav-link:focus {
   opacity: 0.5;
   text-decoration: underline;
@@ -185,7 +187,7 @@ p,
   opacity: 0.5;
 }
 
-.fb_link {
+/* .fb_link {
   min-width: 0%;
   margin-top: auto;
   margin-bottom: auto;
@@ -198,22 +200,12 @@ p,
   font-family: Arimo, sans-serif;
   color: #fff;
   font-size: 16px;
-}
-
-.fb_link.nav-link {
-  padding-right: 0px;
-  font-size: 16px;
-  text-align: right;
-}
+} */
 
 .fb-icon {
   width: 50px;
   max-width: 50px;
   margin-left: auto;
-}
-
-.fb-icon:hover {
-  opacity: 0.5;
 }
 
 .nav-menu {
@@ -286,9 +278,9 @@ p,
   flex-direction: column;
 }
 
-.content.pages {
+/* .content.pages {
   margin-top: 100px;
-}
+} */
 
 .hero-paragraph {
   max-width: 600px;

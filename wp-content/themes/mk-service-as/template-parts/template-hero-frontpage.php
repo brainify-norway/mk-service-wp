@@ -12,7 +12,7 @@
 <div class="section wf-section">
   <div class="div-block">
     <div class="hero">
-      <div class="content w-container">
+      <div class="frontpage content w-container">
         <?php while (have_posts()) : the_post();
           the_content();
         endwhile; ?>
