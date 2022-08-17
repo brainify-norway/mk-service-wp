@@ -9,6 +9,10 @@ p {
   line-height: 150%;
 }
 
+ul,
+li {
+  color: white;
+}
 /*HEADER START*/
 
 .fb-text {
@@ -54,7 +58,6 @@ footer {
 /* HERO FRONT PAGE END*/
 
 /* SERVICE TEMPLATE START */
-
 .services-posts,
 .news-posts {
   display: grid;
@@ -92,6 +95,10 @@ footer {
   max-width: 300px;
   position: absolute;
   z-index: 1;
+}
+
+.service-title {
+  text-align: center;
 }
 
 .service-image,
@@ -168,8 +175,17 @@ footer {
   }
 }
 
-/* */
 @media screen and (max-width: 767px) {
+  body {
+    font-size: 20px;
+  }
+
+  h1 {
+    margin-top: 80px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
   .services-posts,
   .news-posts,
   .projects-posts,
