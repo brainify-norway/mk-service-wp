@@ -202,7 +202,7 @@ footer {
   .service,
   .news,
   .project {
-    max-height: 500px;
+    height: 700px;
   }
 
   .service-image,
