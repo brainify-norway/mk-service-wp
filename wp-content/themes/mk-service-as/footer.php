@@ -2,10 +2,10 @@
   <div class="container-4 w-container">
     <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-2.svg" loading="lazy" alt="" class="image-4" />
     <div class="text-block">
-      <a href="#" class="white">post@mkservice.no</a>
+      <a href="mailto:post@mkservice.no" class="white">post@mkservice.no</a>
     </div>
     <div class="text-block">
-      <a href="#" class="white">+47 984 42 412</a>
+      <a href="tel:+47 984 42 412" class="white">+47 984 42 412</a>
     </div>
   </div>
 </div>
