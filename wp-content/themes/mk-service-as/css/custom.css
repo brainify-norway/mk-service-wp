@@ -149,6 +149,10 @@ footer {
     padding-top: 0;
   }
 
+  .fb-text {
+    display: none;
+  }
+
   .nav-link.last-child {
     padding-right: 20px;
   }
