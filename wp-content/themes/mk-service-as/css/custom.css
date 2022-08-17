@@ -181,14 +181,17 @@ footer {
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-align: center;
   }
 
   .hero h1 {
     margin-top: 140px;
   }
-
+  label {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+  }
   .services-posts,
   .news-posts,
   .projects-posts,
@@ -206,5 +209,9 @@ footer {
   .news-image,
   .project-image {
     top: 0;
+  }
+
+  .wp-block-button__link {
+    font-size: 16px !important;
   }
 }

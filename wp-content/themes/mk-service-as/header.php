@@ -39,12 +39,12 @@
       <div class="menu">
         <div class="header w-container">
           <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="<?php echo site_url(); ?>/" class="nav-link w-nav-link">Home</a>
+            <a href="<?php echo site_url(); ?>/" class="nav-link w-nav-link">Hjem</a>
             <a href="<?php echo site_url(); ?>/om-oss" class="nav-link w-nav-link">Om oss</a>
             <a href="<?php echo site_url(); ?>/produkter" class="nav-link w-nav-link">Produkter</a>
             <a href="<?php echo site_url(); ?>/tjenester" class="nav-link w-nav-link">Tjenester</a>
             <a href="<?php echo site_url(); ?>/referanser" class="nav-link w-nav-link">Referanser</a>
-            <a href="<?php echo site_url(); ?>/kontakt" class="nav-link w-nav-link">kontakt</a>
+            <a href="<?php echo site_url(); ?>/kontakt" class="nav-link w-nav-link">Kontakt</a>
             <a href="<?php echo site_url(); ?>/nyheter" class="nav-link last-child w-nav-link">Nyheter</a>
           </nav>
 
