@@ -8,7 +8,7 @@
 
 <?php get_header() ?>
 
-<div class="section-3 wf-section">
+<div class="section wf-section">
   <div class="content w-container">
 
     <?php while (have_posts()) : the_post();

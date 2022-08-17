@@ -54,7 +54,7 @@
           </a>
 
 
-          <a class="facebook-navlink nav-link" href="https://www.facebook.com/mkserviceas">
+          <a class="facebook-navlink nav-link" target='_blank' href="https://www.facebook.com/mkserviceas">
             <img src="<?php echo get_stylesheet_directory_uri() ?>/images/ic-fb-white.svg" loading="lazy" alt="" class="fb-icon">
             <p class="fb-text">Følg oss på Facebook</p>
           </a>

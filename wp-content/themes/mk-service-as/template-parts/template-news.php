@@ -9,7 +9,7 @@
 <?php get_header() ?>
 
 
-<div class="section-3 wf-section">
+<div class="section wf-section">
   <div class="content w-container">
 
     <?php while (have_posts()) : the_post();
@@ -30,7 +30,7 @@
         <div>
           <div class="news">
 
-            <img class="news-image" src="<?php the_post_thumbnail_url(); ?>">>
+            <img class="news-image" src="<?php the_post_thumbnail_url(); ?>">
             <a href="<?php echo the_permalink() ?>"> </a>
           </div>
           <p class="news-title"><?php the_title(); ?></p>
