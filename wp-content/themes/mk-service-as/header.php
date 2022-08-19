@@ -2,6 +2,30 @@
 <html>
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        ‘
+        gtm.start’: new Date().getTime(),
+        event: ‘gtm.js’
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != ‘dataLayer’ ? ‘ & l = ‘+l : ‘’;
+      j.async = true;
+      j.src = ’https: //www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window, document, ‘script’, ‘dataLayer’, ‘GTM - NGZNX6F’);
+  </script>
+  <!-- End Google Tag Manager -->
+  I tillegg må denne koden limes inn rett etter den innledende
+
+<body>-taggen:
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-NGZNX6F” height=“0" width=“0” style=“display:none;visibility:hidden”></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <meta charset="utf-8">
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -31,39 +55,39 @@
   <link href="<?php echo get_stylesheet_directory_uri() ?>/images/webclip.png" rel="apple-touch-icon">
 
   <?php wp_head(); ?>
-</head>
+  </head>
 
-<body <?php body_class(); ?>>
-  <div class="section wf-section">
-    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-      <div class="menu">
-        <div class="header w-container">
-          <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="<?php echo site_url(); ?>/" class="nav-link w-nav-link">Hjem</a>
-            <a href="<?php echo site_url(); ?>/om-oss" class="nav-link w-nav-link">Om oss</a>
-            <a href="<?php echo site_url(); ?>/produkter" class="nav-link w-nav-link">Produkter</a>
-            <a href="<?php echo site_url(); ?>/tjenester" class="nav-link w-nav-link">Tjenester</a>
-            <a href="<?php echo site_url(); ?>/referanser" class="nav-link w-nav-link">Referanser</a>
-            <a href="<?php echo site_url(); ?>/kontakt" class="nav-link w-nav-link">Kontakt</a>
-            <a href="<?php echo site_url(); ?>/nyheter" class="nav-link last-child w-nav-link">Nyheter</a>
-          </nav>
-
-
-          <a href="<?php echo site_url(); ?>" class="brand w-nav-brand">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.webp" loading="lazy" alt="" class="image">
-          </a>
+  <body <?php body_class(); ?>>
+    <div class="section wf-section">
+      <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+        <div class="menu">
+          <div class="header w-container">
+            <nav role="navigation" class="nav-menu w-nav-menu">
+              <a href="<?php echo site_url(); ?>/" class="nav-link w-nav-link">Hjem</a>
+              <a href="<?php echo site_url(); ?>/om-oss" class="nav-link w-nav-link">Om oss</a>
+              <a href="<?php echo site_url(); ?>/produkter" class="nav-link w-nav-link">Produkter</a>
+              <a href="<?php echo site_url(); ?>/tjenester" class="nav-link w-nav-link">Tjenester</a>
+              <a href="<?php echo site_url(); ?>/referanser" class="nav-link w-nav-link">Referanser</a>
+              <a href="<?php echo site_url(); ?>/kontakt" class="nav-link w-nav-link">Kontakt</a>
+              <a href="<?php echo site_url(); ?>/nyheter" class="nav-link last-child w-nav-link">Nyheter</a>
+            </nav>
 
 
-          <a class="facebook-navlink nav-link" target='_blank' href="https://www.facebook.com/mkserviceas">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/ic-fb-white.svg" loading="lazy" alt="" class="fb-icon">
-            <p class="fb-text">Følg oss på Facebook</p>
-          </a>
+            <a href="<?php echo site_url(); ?>" class="brand w-nav-brand">
+              <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.webp" loading="lazy" alt="" class="image">
+            </a>
 
 
-          <div class="menu-button w-nav-button">
-            <div class="icon w-icon-nav-menu"></div>
+            <a class="facebook-navlink nav-link" target='_blank' href="https://www.facebook.com/mkserviceas">
+              <img src="<?php echo get_stylesheet_directory_uri() ?>/images/ic-fb-white.svg" loading="lazy" alt="" class="fb-icon">
+              <p class="fb-text">Følg oss på Facebook</p>
+            </a>
+
+
+            <div class="menu-button w-nav-button">
+              <div class="icon w-icon-nav-menu"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
