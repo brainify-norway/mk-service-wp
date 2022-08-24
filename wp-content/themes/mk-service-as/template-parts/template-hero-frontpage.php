@@ -13,11 +13,18 @@
   <div class="div-block">
     <div class="hero">
       <div class="frontpage content w-container">
-        <?php while (have_posts()) : the_post();
-          the_content();
-        endwhile; ?>
+
         <h1 class="hero-title">
+          <?php while (have_posts()) : the_post();
+            the_title();
+          endwhile; ?>
         </h1>
+        <p class="hero-content">
+          <?php while (have_posts()) : the_post();
+            the_content();
+          endwhile; ?>
+        </p>
+
       </div>
     </div>
   </div>

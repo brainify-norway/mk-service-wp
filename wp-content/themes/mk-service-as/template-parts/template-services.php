@@ -10,10 +10,16 @@
 
 <div class="section wf-section">
   <div class="content w-container">
-
-    <?php while (have_posts()) : the_post();
-      the_content();
-    endwhile; ?>
+    <h1 class="title">
+      <?php while (have_posts()) : the_post();
+        the_title();
+      endwhile; ?>
+    </h1>
+    <p class="content">
+      <?php while (have_posts()) : the_post();
+        the_content();
+      endwhile; ?>
+    </p>
 
     <div class="services-posts w-dyn-list">
 

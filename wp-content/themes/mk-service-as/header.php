@@ -19,9 +19,8 @@
     })(window, document, ‘script’, ‘dataLayer’, ‘GTM - NGZNX6F’);
   </script>
   <!-- End Google Tag Manager -->
-  I tillegg må denne koden limes inn rett etter den innledende
 
-<body>-taggen:
+<body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-NGZNX6F” height=“0" width=“0” style=“display:none;visibility:hidden”></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
