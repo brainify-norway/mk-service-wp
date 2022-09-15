@@ -10,10 +10,11 @@
 
 
 <div class="section wf-section">
-  <div class="div-block">
+  <div class="hero-block" style="background-image: url(<?php $pageBackground = get_field('page_background');
+                                                        echo $pageBackground['url'] ?>)">
+    <div class="page-background"></div>
     <div class="hero">
       <div class="frontpage content w-container">
-
         <h1 class="hero-title">
           <?php while (have_posts()) : the_post();
             the_title();

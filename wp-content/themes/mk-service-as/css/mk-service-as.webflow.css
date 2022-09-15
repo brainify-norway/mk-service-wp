@@ -226,8 +226,8 @@ p,
   text-align: center;
 }
 
-.div-block {
-  background-image: url("../images/joshua-koblin-55673aiV_CY-unsplash.jpg");
+.hero-block {
+  /* background-image: url("../images/joshua-koblin-55673aiV_CY-unsplash.jpg"); */
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;

@@ -5,8 +5,6 @@ add_theme_support('post-thumbnails', array(
   'tjenester',
   'utforte_jobber',
   'fornoyde_kunder',
-
-
 ));
 
 
