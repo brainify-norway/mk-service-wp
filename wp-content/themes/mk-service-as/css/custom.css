@@ -198,6 +198,11 @@ body.home .hero p {
   overflow: hidden;
 }
 
+.gf_browser_chrome.gform_wrapper.gravity-theme {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
 @media screen and (max-width: 991px) {
