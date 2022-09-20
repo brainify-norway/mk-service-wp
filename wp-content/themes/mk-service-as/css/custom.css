@@ -161,6 +161,17 @@ body.home .hero p {
   margin: 0 auto;
 }
 
+.wp-block-columns {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.wp-block-image.size-full img {
+  width: 100vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
 @media screen and (max-width: 991px) {
