@@ -28,11 +28,12 @@ a:hover {
   margin-top: auto;
   margin-bottom: auto;
 }
-.facebook-navlink {
+.icon-navlink {
   gap: 10px;
+  min-width: 50px;
 }
 
-.facebook-navlink:hover {
+.icon-navlink:hover {
   opacity: 0.5;
 }
 /*HEADER END*/
@@ -75,6 +76,11 @@ body.home .hero p {
 }
 
 /* HERO FRONT PAGE END*/
+
+/* Text paragraph size */
+.content.pages {
+  max-width: 600px;
+}
 
 /* SERVICE TEMPLATE START */
 .services-posts,
@@ -161,17 +167,6 @@ body.home .hero p {
   margin: 0 auto;
 }
 
-.wp-block-columns {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.wp-block-image.size-full img {
-  width: 100vw;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
 @media screen and (max-width: 991px) {
@@ -181,8 +176,9 @@ body.home .hero p {
     padding-top: 20px;
   }
 
-  .facebook-navlink {
-    padding-top: 0;
+  .icon-navlink {
+    padding: 10px 10px 10px;
+    font-size: 15px;
   }
 
   .fb-text {

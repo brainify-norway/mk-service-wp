@@ -1,5 +1,5 @@
 <div class="footer wf-section">
-  <div class="container-4 w-container">
+  <div class="container w-container">
     <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-2.svg" loading="lazy" alt="" class="image-4" />
     <div class="text-block">
       <a href="mailto:post@mkservice.no" class="white">post@mkservice.no</a>

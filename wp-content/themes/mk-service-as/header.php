@@ -20,7 +20,6 @@
   </script>
   <!-- End Google Tag Manager -->
 
-<body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-NGZNX6F” height=“0" width=“0” style=“display:none;visibility:hidden”></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
@@ -43,6 +42,7 @@
     });
   </script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+
   <script type="text/javascript">
     ! function(o, c) {
       var n = c.documentElement,
@@ -54,39 +54,47 @@
   <link href="<?php echo get_stylesheet_directory_uri() ?>/images/webclip.png" rel="apple-touch-icon">
 
   <?php wp_head(); ?>
-  </head>
+</head>
 
-  <body <?php body_class(); ?>>
-    <div class="section wf-section">
-      <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-        <div class="menu">
-          <div class="header w-container">
-            <nav role="navigation" class="nav-menu w-nav-menu">
-              <a href="<?php echo site_url(); ?>/" class="nav-link w-nav-link">Hjem</a>
-              <a href="<?php echo site_url(); ?>/om-oss" class="nav-link w-nav-link">Om oss</a>
-              <a href="<?php echo site_url(); ?>/produkter" class="nav-link w-nav-link">Produkter</a>
-              <a href="<?php echo site_url(); ?>/tjenester" class="nav-link w-nav-link">Tjenester</a>
-              <a href="<?php echo site_url(); ?>/referanser" class="nav-link w-nav-link">Referanser</a>
-              <a href="<?php echo site_url(); ?>/kontakt" class="nav-link w-nav-link">Kontakt</a>
-              <a href="<?php echo site_url(); ?>/nyheter" class="nav-link last-child w-nav-link">Nyheter</a>
-            </nav>
-
-
-            <a href="<?php echo site_url(); ?>" class="brand w-nav-brand">
-              <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.webp" loading="lazy" alt="" class="image">
-            </a>
-
-
-            <a class="facebook-navlink nav-link" target='_blank' href="https://www.facebook.com/mkserviceas">
-              <img src="<?php echo get_stylesheet_directory_uri() ?>/images/ic-fb-white.svg" loading="lazy" alt="" class="fb-icon">
-              <p class="fb-text">Følg oss på Facebook</p>
-            </a>
+<body <?php body_class(); ?>>
+  <header></header>
+  <div class="section wf-section">
+    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+      <div class="menu">
+        <div class="header w-container">
+          <nav role="navigation" class="nav-menu w-nav-menu">
+            <?php
+            wp_nav_menu(
+              array(
+                'theme_location'  => 'primary',
+                'menu_id'         => 'main-menu',
+                'menu_class'      => 'nav top-nav',
+                'link_before'     => '<span>',
+                'link_after'      => '</span>',
+              )
+            );
+            ?>
+          </nav>
 
 
-            <div class="menu-button w-nav-button">
-              <div class="icon w-icon-nav-menu"></div>
-            </div>
+          <a href="<?php echo esc_url(home_url('/')); ?>" class="brand w-nav-brand">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.webp" loading="lazy" alt="" class="image">
+          </a>
+
+
+          <a class="icon-navlink nav-link" target='_blank' href="https://www.facebook.com/mkserviceas">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/ic-fb-white.svg" loading="lazy" alt="" class="nav-icon">
+          </a>
+
+          <a class="icon-navlink nav-link" target='_blank' href="https://www.instagram.com/mk_service_/">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/instagram.svg" loading="lazy" alt="" class="nav-icon">
+          </a>
+
+
+          <div class="menu-button w-nav-button">
+            <div class="icon w-icon-nav-menu"></div>
           </div>
         </div>
       </div>
     </div>
+  </div>
