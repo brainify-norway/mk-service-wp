@@ -806,7 +806,7 @@ p,
   }
 
   #main-menu ul {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   #main-menu .menu-item {
