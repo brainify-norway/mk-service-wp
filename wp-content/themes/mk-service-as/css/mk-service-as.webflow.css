@@ -800,6 +800,13 @@ p,
     display: none;
   }
 
+  #main-menu {
+    flex-direction: column;
+  }
+  #main-menu .menu-item {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+  }
   .hero {
     min-height: 90vh;
   }

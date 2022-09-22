@@ -226,10 +226,10 @@ body.home .hero p {
     grid-template-columns: 1fr;
   }
 
-  .service,
+  .service-wrapper,
   .news,
-  .project {
-    height: 700px;
+  .project-wrapper {
+    max-height: 400px;
   }
 
   .service-image,
