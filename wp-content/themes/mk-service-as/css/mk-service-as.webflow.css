@@ -804,6 +804,11 @@ p,
   #main-menu {
     flex-direction: column;
   }
+
+  #main-menu ul {
+    flex-direction: row;
+  }
+
   #main-menu .menu-item {
     font-size: 1.5em;
     padding-bottom: 20px;

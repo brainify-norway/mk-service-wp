@@ -125,7 +125,6 @@ body.home .hero p {
 .service-card,
 .project-card {
   min-height: 200px;
-
   border: rgb(115, 115, 115) solid 1px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
