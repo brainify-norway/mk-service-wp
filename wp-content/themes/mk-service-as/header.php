@@ -62,6 +62,11 @@
     <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
       <div class="menu">
         <div class="header w-container">
+
+          <a href="<?php echo esc_url(home_url('/')); ?>" class="brand w-nav-brand">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.webp" loading="lazy" alt="" class="image">
+          </a>
+
           <nav role="navigation" class="nav-menu w-nav-menu">
             <?php
             wp_nav_menu(
@@ -75,12 +80,6 @@
             );
             ?>
           </nav>
-
-
-          <a href="<?php echo esc_url(home_url('/')); ?>" class="brand w-nav-brand">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.webp" loading="lazy" alt="" class="image">
-          </a>
-
 
           <a class="icon-navlink nav-link" target='_blank' href="https://www.facebook.com/mkserviceas">
             <img src="<?php echo get_stylesheet_directory_uri() ?>/images/ic-fb-white.svg" loading="lazy" alt="" class="nav-icon">
