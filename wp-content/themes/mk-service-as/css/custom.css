@@ -43,7 +43,6 @@ a:hover {
   text-decoration: none;
 }
 
-/*FOOTER END*/
 .section-3,
 .section {
   flex: 1 0 auto;
@@ -56,6 +55,14 @@ footer {
   flex-shrink: 0;
 }
 
+img.footer-image {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
 /* STICKY FOOTER END*/
 
 /* HERO FRONT PAGE START*/

@@ -57,7 +57,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <header></header>
+
   <div class="section wf-section">
     <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
       <div class="menu">

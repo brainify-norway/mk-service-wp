@@ -1,11 +1,16 @@
+<?php $phone = get_field("phone", "option");
+$email = get_field("email", "option");
+?>
+
+
 <div class="footer wf-section">
   <div class="container w-container">
-    <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-2.svg" loading="lazy" alt="" class="image-4" />
+    <img class="footer-image" src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-2.svg" loading="lazy" alt="logo" />
     <div class="text-block">
-      <a href="mailto:post@mkservice.no" class="white">post@mkservice.no</a>
+      <a href="mailto:<?php echo $email["link"] ?>" class="white"><?php echo $email["text"] ?></a>
     </div>
     <div class="text-block">
-      <a href="tel:+47 984 42 412" class="white">+47 984 42 412</a>
+      <a href="tel:<?php echo $phone["link"] ?>" class="white"><?php echo $phone["text"] ?></a>
     </div>
   </div>
 </div>
