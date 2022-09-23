@@ -1,4 +1,11 @@
-<?php get_header() ?>
+<?php
+
+/**
+ * Template Name: News Article
+ * Template Post Type: post
+ */
+
+get_header() ?>
 
 
 <div class="section wf-section">
@@ -15,11 +22,11 @@
       endwhile; ?>
     </div>
 
-    <div class="artikkel-bilde">
-      <img class="project-image" src="<?php the_post_thumbnail_url(); ?>">
-      <p class="artikkel-bilde-tekst"><?php get_the_author(); ?></p>
-      <p class="artikkel-bilde-tekst"><?php the_modified_time('F jS, Y'); ?></p>
+    <div class="artikkel-bilde-wrap">
+      <img class="artikkel-bilde" src="<?php the_post_thumbnail_url(); ?>">
     </div>
+    <p class="artikkel-bilde-tekst"><?php get_the_author(); ?></p>
+    <p class="artikkel-bilde-tekst"><?php the_modified_time('F jS, Y'); ?></p>
 
     <div class="artikkel-innhold-wrap">
       <div class="artikkel-left">

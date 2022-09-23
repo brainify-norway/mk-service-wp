@@ -483,9 +483,7 @@ p,
 }
 
 .artikkel-bilde-wrap {
-  height: 500px;
-  margin-right: auto;
-  margin-left: auto;
+  height: 400px;
 }
 
 .artikkel-innhold-wrap {
@@ -864,6 +862,7 @@ p,
     height: 400px;
     margin-right: 0px;
     margin-left: 0px;
+    overflow: hidden;
   }
 
   .artikkel-innhold-wrap {
