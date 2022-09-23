@@ -177,6 +177,7 @@ body.home .hero p {
   border: rgb(115, 115, 115) solid 1px;
   border-radius: 5px;
   max-height: 120px;
+  overflow: hidden;
 }
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
