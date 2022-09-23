@@ -150,6 +150,7 @@ body.home .hero p {
   margin: 0;
   z-index: 0;
 }
+
 .project-description,
 .service-description {
   margin-left: 20px;
@@ -163,16 +164,6 @@ body.home .hero p {
 }
 /* SERVICE TEMPLATE END */
 
-/* SLIDER*/
-.metaslider {
-  margin-bottom: 50px !important;
-}
-
-.rslides {
-  max-height: 300px !important;
-  overflow: hidden;
-}
-
 .gf_browser_chrome.gform_wrapper.gravity-theme {
   max-width: 500px;
   margin: 0 auto;
@@ -182,6 +173,11 @@ body.home .hero p {
   margin-left: 0;
 }
 
+.wp-block-image {
+  border: rgb(115, 115, 115) solid 1px;
+  border-radius: 5px;
+  max-height: 120px;
+}
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
 @media screen and (max-width: 991px) {
