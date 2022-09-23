@@ -558,6 +558,7 @@ p,
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  margin-left: auto;
 }
 
 .artikkel-fakta-heading {
@@ -570,7 +571,7 @@ p,
   color: #fbfbfb;
 }
 
-.experpt {
+.excerpt {
   max-width: 600px;
   margin-right: auto;
   margin-bottom: 40px;

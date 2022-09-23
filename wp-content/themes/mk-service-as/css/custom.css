@@ -7,6 +7,7 @@ body {
 
 p {
   line-height: 110%;
+  max-width: 600px;
 }
 
 ul,
@@ -175,6 +176,10 @@ body.home .hero p {
 .gf_browser_chrome.gform_wrapper.gravity-theme {
   max-width: 500px;
   margin: 0 auto;
+}
+
+.artikkel-bilde-tekst {
+  margin-left: 0;
 }
 
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
