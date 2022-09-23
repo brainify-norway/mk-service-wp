@@ -54,3 +54,10 @@ if (function_exists('acf_add_options_page')) {
     'parent_slug'  => 'theme-general-settings',
   ));
 }
+
+add_action('admin_bar_menu', 'show_template');
+function show_template()
+{
+  global $template;
+  print_r($template);
+}
