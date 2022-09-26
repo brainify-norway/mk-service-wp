@@ -7,6 +7,13 @@
 
 get_header() ?>
 
+<?php
+$faktatitle = get_field("title");
+$fakta1 = get_field("fakta-1");
+$fakta2 = get_field("fakta-2");
+$fakta3 = get_field("fakta-3");
+
+?>
 
 <div class="section wf-section">
   <div class="content container-article">
@@ -33,13 +40,18 @@ get_header() ?>
         <?php while (have_posts()) : the_post();
           the_content();
         endwhile; ?>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <p><br><b>Del dette!</b></p>
+        <div class=“addthis_inline_share_toolbox”></div>
       </div>
       <div class="artikkel-right">
         <div class="artikkel-faktaboks">
-          <h3 class="artikkel-fakta-heading">Del dette!</h3>
-          <!-- Go to www.addthis.com/dashboard to customize your tools -->
-          <p><br><b></b>
-          <div class=“addthis_inline_share_toolbox”></div>
+          <h3 class="artikkel-fakta-heading">
+            <?php echo $faktatitle ?>
+          </h3>
+          <p><?php echo $fakta1 ?></p>
+          <p><?php echo $fakta2 ?></p>
+          <p><?php echo $fakta3 ?></p>
         </div>
       </div>
     </div>

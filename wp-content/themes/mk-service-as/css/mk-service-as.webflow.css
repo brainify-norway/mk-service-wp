@@ -535,6 +535,9 @@ p,
   position: sticky;
   top: 0px;
   width: 90%;
+  min-width: 200px;
+  max-width: 400px;
+  min-height: 200px;
   padding: 15px 15px 10px;
   border-radius: 2px;
   background-color: rgba(238, 191, 105, 0.63);
