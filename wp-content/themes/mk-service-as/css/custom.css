@@ -193,11 +193,13 @@ body.home .hero p {
 .wp-block-image {
   border: rgb(115, 115, 115) solid 1px;
   border-radius: 5px;
-  max-height: 200px;
   overflow: hidden;
+  background-color: #4a4a4a;
+  max-height: 100%;
 }
 
 figcaption {
+  display: block;
   font-size: 14px;
   text-align: left;
   margin: 10px;
@@ -269,11 +271,6 @@ figcaption {
   .news-image,
   .project-image {
     top: 0;
-  }
-
-  .wp-block-image {
-    background-color: #4a4a4a;
-    max-height: 100%;
   }
 
   .wp-block-button__link {
