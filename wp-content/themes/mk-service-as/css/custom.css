@@ -95,6 +95,10 @@ body.home .hero p {
   text-align: center;
 }
 
+.frontpage .wp-container-1 .wp-block-button .wp-block-button__link {
+  height: 70px;
+}
+
 /* HERO FRONT PAGE END*/
 
 /* Text paragraph size */
