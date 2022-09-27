@@ -292,6 +292,10 @@ p,
   margin-left: auto;
 }
 
+.wp-block-button {
+  font-size: 0.9em !important;
+}
+
 .wp-block-button__link,
 .button.primary,
 .gform_button {
@@ -479,7 +483,7 @@ p,
   font-family: Arimo, sans-serif;
   color: #fbfbfb;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 130%;
 }
 
 .artikkel-bilde-wrap {

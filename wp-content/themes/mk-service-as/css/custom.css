@@ -2,11 +2,15 @@
 body {
   display: flex;
   flex-direction: column;
+  line-height: 130%;
+}
+
+h3 {
   line-height: 110%;
 }
 
 p {
-  line-height: 110%;
+  line-height: 130%;
   max-width: 600px;
 }
 
@@ -76,6 +80,10 @@ img.footer-image {
   margin-top: -110px;
 }
 
+.hero-content {
+  margin: 0 !important;
+}
+
 body.home h1 {
   line-height: 100%;
   text-align: center;
@@ -92,6 +100,7 @@ body.home .hero p {
 /* Text paragraph size */
 .content.pages {
   max-width: 600px;
+  padding-bottom: 3rem;
 }
 
 /* SERVICE TEMPLATE START */
@@ -136,6 +145,10 @@ body.home .hero p {
   background-color: rgb(74, 74, 74);
 }
 
+.service-card {
+  margin-top: -1px;
+}
+
 .service-title,
 .project-title {
   text-align: center;
@@ -176,9 +189,19 @@ body.home .hero p {
 .wp-block-image {
   border: rgb(115, 115, 115) solid 1px;
   border-radius: 5px;
-  max-height: 120px;
+  max-height: 200px;
   overflow: hidden;
 }
+
+figcaption {
+  text-align: left;
+  margin: 10px;
+}
+
+.wp-block-post-featured-image {
+  margin-bottom: 2rem;
+}
+
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
 @media screen and (max-width: 991px) {
@@ -241,6 +264,10 @@ body.home .hero p {
   .news-image,
   .project-image {
     top: 0;
+  }
+
+  .wp-block-image {
+    max-height: 400px;
   }
 
   .wp-block-button__link {
