@@ -198,7 +198,9 @@ body.home .hero p {
 }
 
 figcaption {
-  display: none;
+  font-size: 14px;
+  text-align: left;
+  margin: 10px;
 }
 
 .wp-block-post-featured-image {
@@ -270,7 +272,8 @@ figcaption {
   }
 
   .wp-block-image {
-    max-height: 400px;
+    background-color: #4a4a4a;
+    max-height: 100%;
   }
 
   .wp-block-button__link {
