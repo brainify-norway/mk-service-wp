@@ -225,83 +225,146 @@ figcaption {
 }
 
 /* FORMS*/
-.gform_wrapper.gravity-theme .gfield-choice-input {
-  display: none !important;
+.gform_wrapper.gravity-theme .label-radio-images .gfield-choice-input {
+  display: none;
+}
+.gravity-theme .label-radio-images .gfield_radio {
+  justify-content: center;
 }
 
-label {
+.gravity-theme .label-radio-images .gfield_radio label {
   padding: 10px;
-  display: block;
+  display: flex !important;
   position: relative;
   margin: 10px;
   cursor: pointer;
   width: 200px;
-  height: 100px;
+  height: 200px;
+  vertical-align: bottom !important;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: 200px 100px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+#input_3_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label:hover {
+  cursor: pointer !important;
 }
 
 #label_3_1_0 {
   background-image: url(../images/hundekasser.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 #label_3_1_1 {
   background-image: url(../images/bilinnredning.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 #label_3_1_2 {
   background-image: url(../images/lys.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 #label_3_1_3 {
   background-image: url(../images/anlegg.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
-label:before {
-  background-color: white;
-  color: white;
-  content: " ";
-  display: block;
-  border-radius: 50%;
-  border: 1px solid grey;
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  width: 25px;
-  height: 25px;
-  text-align: center;
-  line-height: 28px;
-  transition-duration: 0.4s;
-  transform: scale(0);
+#label_3_1_0:hover,
+:checked + #label_3_1_0 {
+  background-image: url(../images/hundekasser-active.svg);
 }
 
-label img {
-  height: 100px;
-  width: 100px;
-  transition-duration: 0.2s;
-  transform-origin: 50% 50%;
+#label_3_1_1:hover,
+:checked + #label_3_1_1 {
+  background-image: url(../images/bilinnredning-active.svg);
 }
 
-:checked + label {
-  border-color: #ddd;
+#label_3_1_2:hover,
+:checked + #label_3_1_2 {
+  background-image: url(../images/lys-active.svg);
 }
 
-:checked + label:before {
-  content: "✓";
-  background-color: grey;
-  transform: scale(1);
+#label_3_1_3:hover,
+:checked + #label_3_1_3 {
+  background-image: url(../images/anlegg-active.svg);
 }
 
-:checked + label img {
+.gravity-theme .label-radio-images :checked + label {
   transform: scale(0.9);
-  /* box-shadow: 0 0 5px #333; */
-  z-index: -1;
+}
+
+.gravity-theme .label-radio-images .gfield_radio .gchoice {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.gravity-theme .label-radio-images .gfield_radio .gchoice:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgb(28, 28, 28);
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.gravity-theme .label-single-choice .gfield_radio {
+  display: flex;
+}
+
+.gravity-theme .label-single-choice .gfield_radio input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  margin-right: 5px;
+  margin-left: 20px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 3px solid #bbbbbb;
+  border-radius: 50%;
+}
+
+.gravity-theme .label-multiple-choice .gfield_checkbox input[type="checkbox"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 3px solid #bbbbbb;
+  /* border-radius: 50%; */
+}
+
+/* appearance for checked radiobutton */
+.gravity-theme .label-single-choice .gfield_radio input[type="radio"]:checked,
+.gravity-theme
+  .label-multiple-choice
+  .gfield_checkbox
+  input[type="checkbox"]:checked {
+  background-color: #e6b25f;
+}
+
+.gravity-theme .label-multiple-choice .gchoice {
+  margin-bottom: 10px;
+}
+
+.gravity-theme .label-multiple-choice .gchoice label {
+  padding-left: 20px;
 }
 /*FORMS END*/
 
