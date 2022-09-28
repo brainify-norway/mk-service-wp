@@ -225,9 +225,19 @@ figcaption {
 }
 
 /* FORMS*/
+body .gform_wrapper .gform_title {
+  display: none !important;
+}
+
 .gform_wrapper.gravity-theme .label-radio-images .gfield-choice-input {
   display: none;
 }
+
+.gravity-theme .label-radio-images .ginput_container {
+  margin-left: -200px !important;
+  margin-right: -200px !important;
+}
+
 .gravity-theme .label-radio-images .gfield_radio {
   justify-content: center;
 }
@@ -238,8 +248,8 @@ figcaption {
   position: relative;
   margin: 10px;
   cursor: pointer;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   vertical-align: bottom !important;
   align-items: flex-end;
   justify-content: center;
@@ -365,6 +375,27 @@ label:hover {
 
 .gravity-theme .label-multiple-choice .gchoice label {
   padding-left: 20px;
+}
+
+.gravity-theme .ginput_container input,
+.gravity-theme .ginput_container textarea {
+  border-radius: 5px;
+  color: black;
+}
+
+.gravity-theme .ginput_container input:focus {
+  color: black;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  opacity: 50%;
 }
 /*FORMS END*/
 
