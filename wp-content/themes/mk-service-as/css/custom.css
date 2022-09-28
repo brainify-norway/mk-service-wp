@@ -209,6 +209,102 @@ figcaption {
   margin-bottom: 2rem;
 }
 
+.wp-block-button__link {
+  display: table-cell !important;
+  vertical-align: middle;
+}
+
+.wp-block-columns {
+  margin-left: -200px;
+  margin-right: -200px;
+  margin-top: 20px;
+}
+
+.wp-block-column {
+  display: flex;
+}
+
+/* FORMS*/
+.gform_wrapper.gravity-theme .gfield-choice-input {
+  display: none !important;
+}
+
+label {
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+  width: 200px;
+  height: 100px;
+}
+
+#label_3_1_0 {
+  background-image: url(../images/hundekasser.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#label_3_1_1 {
+  background-image: url(../images/bilinnredning.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#label_3_1_2 {
+  background-image: url(../images/lys.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#label_3_1_3 {
+  background-image: url(../images/anlegg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+label img {
+  height: 100px;
+  width: 100px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+}
+
+:checked + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  /* box-shadow: 0 0 5px #333; */
+  z-index: -1;
+}
+/*FORMS END*/
+
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
 @media screen and (max-width: 991px) {
@@ -271,6 +367,11 @@ figcaption {
   .news-image,
   .project-image {
     top: 0;
+  }
+
+  .wp-block-columns {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .wp-block-button__link {
