@@ -234,8 +234,8 @@ body .gform_wrapper .gform_title {
 }
 
 .gravity-theme .label-radio-images .ginput_container {
-  margin-left: -200px !important;
-  margin-right: -200px !important;
+  margin-left: -200px;
+  margin-right: -200px;
 }
 
 .gravity-theme .label-radio-images .gfield_radio {
@@ -481,5 +481,15 @@ input[type="submit"]:hover {
   .rslides {
     max-height: 170px !important;
     overflow: hidden;
+  }
+
+  .gravity-theme .label-radio-images .gfield_radio label {
+    width: 200px;
+    height: 200px;
+  }
+
+  .gravity-theme .label-radio-images .ginput_container {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
