@@ -258,7 +258,7 @@ body .gform_wrapper .gform_title {
   background-repeat: no-repeat;
 }
 
-#input_3_1 {
+#input_4_1 {
   display: flex;
   flex-wrap: wrap;
 }
@@ -267,39 +267,39 @@ label:hover {
   cursor: pointer !important;
 }
 
-#label_3_1_0 {
+#label_4_1_0 {
   background-image: url(../images/hundekasser.svg);
 }
 
-#label_3_1_1 {
+#label_4_1_1 {
   background-image: url(../images/bilinnredning.svg);
 }
 
-#label_3_1_2 {
+#label_4_1_2 {
   background-image: url(../images/lys.svg);
 }
 
-#label_3_1_3 {
+#label_4_1_3 {
   background-image: url(../images/anlegg.svg);
 }
 
-#label_3_1_0:hover,
-:checked + #label_3_1_0 {
+#label_4_1_0:hover,
+:checked + #label_4_1_0 {
   background-image: url(../images/hundekasser-active.svg);
 }
 
-#label_3_1_1:hover,
-:checked + #label_3_1_1 {
+#label_4_1_1:hover,
+:checked + #label_4_1_1 {
   background-image: url(../images/bilinnredning-active.svg);
 }
 
-#label_3_1_2:hover,
-:checked + #label_3_1_2 {
+#label_4_1_2:hover,
+:checked + #label_4_1_2 {
   background-image: url(../images/lys-active.svg);
 }
 
-#label_3_1_3:hover,
-:checked + #label_3_1_3 {
+#label_4_1_3:hover,
+:checked + #label_4_1_3 {
   background-image: url(../images/anlegg-active.svg);
 }
 
