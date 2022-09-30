@@ -93,6 +93,7 @@ body.home .hero p {
   max-width: 600px;
   margin: 1rem auto;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .frontpage .wp-container-1 .wp-block-button .wp-block-button__link {
@@ -196,6 +197,14 @@ body.home .hero p {
   overflow: hidden;
   background-color: #4a4a4a;
   max-height: 100%;
+}
+
+.pages .wp-block-image {
+  max-width: 350px;
+}
+
+.pages .wp-block-media-text__media {
+  display: flex;
 }
 
 figcaption {
@@ -399,6 +408,11 @@ input[type="submit"]:hover {
 }
 /*FORMS END*/
 
+/* Fixing  width to specific tilbehør page*/
+.single.single-tjenester.postid-414 .wp-block-columns {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
 @media screen and (max-width: 991px) {
@@ -491,5 +505,18 @@ input[type="submit"]:hover {
   .gravity-theme .label-radio-images .ginput_container {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .pages .wp-block-image {
+    max-width: 100%;
+  }
+
+  /* Fixing  width to specific tilbehør page*/
+  .single.single-tjenester.postid-414 .wp-block-columns .wp-block-image {
+    min-width: 100%;
+  }
+
+  .single.single-tjenester.postid-414 .wp-block-columns .wp-block-image img {
+    min-width: 100%;
   }
 }
