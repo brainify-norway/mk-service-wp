@@ -45,14 +45,15 @@ $fakta3 = get_field("fakta-3");
         <div class=“addthis_inline_share_toolbox”></div>
       </div>
       <div class="artikkel-right">
-        <div class="artikkel-faktaboks">
-          <h3 class="artikkel-fakta-heading">
-            <?php echo $faktatitle ?>
-          </h3>
-          <p><?php echo $fakta1 ?></p>
-          <p><?php echo $fakta2 ?></p>
-          <p><?php echo $fakta3 ?></p>
-        </div>
+        <?php if ($faktatitle) { ?>
+          <div class="artikkel-faktaboks">
+            <h3 class="artikkel-fakta-heading">
+              <?php echo $faktatitle ?>
+            </h3>
+            <p><?php echo $fakta1 ?></p>
+            <p><?php echo $fakta2 ?></p>
+            <p><?php echo $fakta3 ?></p>
+          </div> <?php }; ?>
       </div>
     </div>
   </div>

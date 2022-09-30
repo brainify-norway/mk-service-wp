@@ -34,18 +34,18 @@
       ?>
         <div class="service">
           <a href="<?php echo the_permalink() ?>">
-            <div class="service-wrapper">
-              <div class="overlay"></div>
-              <img class="service-image" src="<?php the_post_thumbnail_url(); ?>">
-
-            </div>
+            <?php if (has_post_thumbnail()) { ?>
+              <div class="service-wrapper">
+                <div class="overlay"></div>
+                <img class="service-image" src="<?php the_post_thumbnail_url(); ?>">
+              </div>
+            <?php } ?>
             <div class="service-card">
               <h3 class="service-title"><?php the_title(); ?></h3>
               <div class="service-description"><?php the_excerpt(); ?></div>
             </div>
           </a>
         </div>
-
       <?php
       }
       ?>
