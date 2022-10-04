@@ -415,6 +415,13 @@ input[type="submit"]:hover {
 }
 /* HERE IS THE START OF RESPONSIVE MEDIA STYLING*/
 
+.content.w-container.button-wrapper .wp-block-button {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     font-size: 25px;
