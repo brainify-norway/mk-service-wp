@@ -231,6 +231,7 @@ figcaption {
 
 .wp-block-column {
   display: flex;
+  justify-content: center;
 }
 
 /* FORMS*/
