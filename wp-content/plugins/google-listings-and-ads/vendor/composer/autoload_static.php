@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd90fcfe2e9047d2aecbf1eb0303bab39
+class ComposerStaticInitc8451c72573f3b7c80d1ef3c0a36d6ed
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -352,6 +352,7 @@ class ComposerStaticInitd90fcfe2e9047d2aecbf1eb0303bab39
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ContactInformationController' => __DIR__ . '/../..' . '/src/API/Site/Controllers/MerchantCenter/ContactInformationController.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\IssuesController' => __DIR__ . '/../..' . '/src/API/Site/Controllers/MerchantCenter/IssuesController.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\PhoneVerificationController' => __DIR__ . '/../..' . '/src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\PolicyComplianceCheckController' => __DIR__ . '/../..' . '/src/API/Site/Controllers/MerchantCenter/PolicyComplianceCheckController.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ProductFeedController' => __DIR__ . '/../..' . '/src/API/Site/Controllers/MerchantCenter/ProductFeedController.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ProductStatisticsController' => __DIR__ . '/../..' . '/src/API/Site/Controllers/MerchantCenter/ProductStatisticsController.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ProductVisibilityController' => __DIR__ . '/../..' . '/src/API/Site/Controllers/MerchantCenter/ProductVisibilityController.php',
@@ -600,6 +601,7 @@ class ComposerStaticInitd90fcfe2e9047d2aecbf1eb0303bab39
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\MerchantStatuses' => __DIR__ . '/../..' . '/src/MerchantCenter/MerchantStatuses.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\PhoneVerification' => __DIR__ . '/../..' . '/src/MerchantCenter/PhoneVerification.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\PhoneVerificationException' => __DIR__ . '/../..' . '/src/MerchantCenter/PhoneVerificationException.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\PolicyComplianceCheck' => __DIR__ . '/../..' . '/src/MerchantCenter/PolicyComplianceCheck.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\TargetAudience' => __DIR__ . '/../..' . '/src/MerchantCenter/TargetAudience.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\AbstractNote' => __DIR__ . '/../..' . '/src/Notes/AbstractNote.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\AbstractSetupCampaign' => __DIR__ . '/../..' . '/src/Notes/AbstractSetupCampaign.php',
@@ -4243,9 +4245,9 @@ class ComposerStaticInitd90fcfe2e9047d2aecbf1eb0303bab39
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd90fcfe2e9047d2aecbf1eb0303bab39::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd90fcfe2e9047d2aecbf1eb0303bab39::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitd90fcfe2e9047d2aecbf1eb0303bab39::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc8451c72573f3b7c80d1ef3c0a36d6ed::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc8451c72573f3b7c80d1ef3c0a36d6ed::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitc8451c72573f3b7c80d1ef3c0a36d6ed::$classMap;
 
         }, null, ClassLoader::class);
     }
