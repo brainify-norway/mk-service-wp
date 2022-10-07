@@ -42,7 +42,7 @@ $fakta3 = get_field("fakta-3");
         endwhile; ?>
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <p><br><b>Del dette!</b></p>
-        <div class=“addthis_inline_share_toolbox”></div>
+        <div class=addthis_inline_share_toolbox></div>
       </div>
       <div class="artikkel-right">
         <?php if ($faktatitle) { ?>
