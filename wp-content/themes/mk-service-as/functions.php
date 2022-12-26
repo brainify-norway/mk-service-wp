@@ -56,3 +56,10 @@ if (function_exists('acf_add_options_page')) {
 //   global $template;
 //   print_r($template);
 // }
+ /*
+	https://blog.sonarsource.com/wordpress-core-unauthenticated-blind-ssrf/
+*/
+add_filter('xmlrpc_methods', function($methods) {
+	unset($methods['pingback.ping']); 
+	return $methods; 
+});
